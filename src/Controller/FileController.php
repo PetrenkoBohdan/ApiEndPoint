@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use App\Sevices\FileManager\FileManager;
+use InvalidArgumentException;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -18,6 +19,7 @@ class FileController extends AbstractController
      * @param FileManager $manager
      *
      * @return Response
+     * @throws InvalidArgumentException
      */
     public function index(Request $request, FileManager $manager)
     {

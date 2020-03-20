@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace App\Sevices\FileManager;
 
-use Exception;
-
+use InvalidArgumentException;
 use function array_diff;
 use function array_filter;
 use function array_key_exists;
@@ -21,7 +20,7 @@ class FileManager
      * @param array $bag
      *
      * @return array|null
-     * @throws Exception
+     * @throws InvalidArgumentException
      */
     public function manage(array $bag): ?string
     {
@@ -34,7 +33,7 @@ class FileManager
                     return $this->jsonFormatter($this->filterBySymbols($filterKey['symbols'], $fileNames));
                     break;
                 default:
-                    throw new Exception('Filter doesn\'t allowed');
+                    throw new InvalidArgumentException('Filter doesn\'t allowed');
             }
         };
 
