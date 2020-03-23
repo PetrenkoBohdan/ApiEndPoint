@@ -2,6 +2,10 @@
 
 Run docker `docker-compose up -d`.
 
+###### Composer
+
+Run `composer install`
+
 ###### Request
 
 1. In IntelliJ IDEA press `Shift CMD N` and select HTTP-Request.
