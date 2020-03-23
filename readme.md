@@ -12,3 +12,4 @@ Run docker `docker-compose up -d`.
 
 For filtering files, in the end of request add  `?filter[symbols]=co`,
 where `symbols` is the filter key, and `co` is your filter value.
+![Image description](https://github.com/PetrenkoBohdan/ApiEndPoint/blob/master/files/Снимок%20экрана%202020-03-23%20в%2014.59.26.png).
