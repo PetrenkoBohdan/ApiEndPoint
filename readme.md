@@ -6,7 +6,7 @@ Run docker `docker-compose up -d`.
 
 1. In IntelliJ IDEA press `Shift CMD N` and select HTTP-Request.
 2. Add url `http://localhost/file`,
-3. For request press green arrow ![Image description]('link-to-image').
+3. For making request, press green arrow ![Image description](https://github.com/PetrenkoBohdan/ApiEndPoint/blob/master/files/Снимок%20экрана%202020-03-23%20в%2014.36.29.png).
 
 ###### Filter
 
