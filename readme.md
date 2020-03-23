@@ -1,6 +1,6 @@
 ###### Build project
 
-- rename `env.example` into `.env`
+- Rename `env.example` into `.env`
 
 - Run docker `docker-compose up -d`.
 
