@@ -1,0 +1,43 @@
+//all files
+http://workflow-automation-dev1.pdffillers.com/file
+Content-Type:  application/vnd.api+json
+###
+
+//all files where name contains `co`
+http://workflow-automation-dev1.pdffillers.com/file?filter[symbols]=co
+Content-Type:  application/vnd.api+json
+###
+
+//all files where name contains `f`
+http://workflow-automation-dev1.pdffillers.com/file?filter[symbols]=f
+Content-Type:  application/vnd.api+json
+###
+
+//request will be empty
+http://workflow-automation-dev1.pdffillers.com/file?filter[symbols]=fa
+Content-Type:  application/vnd.api+json
+###
+
+
+LOCAL
+###
+
+//all files
+http://localhost/file
+Content-Type:  application/vnd.api+json
+###
+
+//all files where name contains `co`
+http://localhost/file?filter[symbols]=co
+Content-Type:  application/vnd.api+json
+###
+
+//all files where name contains `f`
+http://localhost/file?filter[symbols]=f
+Content-Type:  application/vnd.api+json
+###
+
+//request will be empty
+http://localhost/file?filter[symbols]=fa
+Content-Type:  application/vnd.api+json
+###
